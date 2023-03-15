@@ -74,6 +74,7 @@ img {
     color: var(--color-base);
 }
 
+
 /* NAVBAR */
 .navbar {
     background-color: var(--color-base);
@@ -196,23 +197,4 @@ img {
     background-color: var(--color-base);
     border-radius: 100px;
     font-size: 24px;
-}
-
-#machine {
-    display: block;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 73ch;
-
-    animation: typing 3s steps(73),
-    blink .5s infinite step-end alternate;
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from {width: 0}
-}
-
-@keyframes blink {
-    50% {border-color: transparent;}
 }
